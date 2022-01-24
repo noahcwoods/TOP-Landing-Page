@@ -3,7 +3,8 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: #1F2937;
+    background-color: #141b15;
+    font-family: 'Courier New', Courier, monospace;
 }
 a{
     color: #E5E7EB;
@@ -42,27 +43,24 @@ ul{
 .hero-container{
     display: flex;
     margin: 4% 0%;
-    padding: 0% 15%;
+    padding: 0% 20%;
 }
 .hero-container img{
     margin-left: auto;
-    width: 55%;
-    border-radius: 5px;
-    border-width: 0 2px 2px 0;
-    border-style: solid;
+    width: 50%;
 }
 .hero-text{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-right: 5%;
-    gap: 15px;
+    width: 55%;
+    gap: 20px;
+    justify-content: center;
 }
 .hero-text h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    margin: 0;
+    margin-top: auto;
 }
 .hero-text p{
     font-size: 18px;
@@ -70,23 +68,24 @@ ul{
     margin: 0;
 }
 .hero-text button{
-    background-color: #3882F6;
+    background-color: #05bb0e;
     color: #E5E7EB;
+    font-size: 14px;
     font-weight: 700;
     padding: 8px 30px;
     border-radius: 5px;
     border-width: 1px;
-    border-color: #3882F6;
+    border-color: #05bb0e;
 }
 button:hover{
-    background-color: #0d3f8f;
-    border-color: #0d3f8f;
+    background-color: #045708;
+    border-color: #045708;
 }
 .information-container{
     display: flex;
     flex-direction: column;
     padding: 3% 20% 3% 20%;
-    background-color: #E5E7EB;
+    background-color: #ffffff;
     gap: 1%;
 }
 .information-boxes,.box-text{
@@ -109,9 +108,27 @@ button:hover{
 }
 .text p{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: #3c3d3f;
     margin: 0;
     padding: 0;
 }
-
+.highlight{
+    color: #05bb0e;
+}
+.quote-container{
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 20%;
+}
+.quote-container .quote{
+    color: #141b15;
+}
+.quote-container .author{
+    margin-left: auto;
+    font-size: 30px;
+}
