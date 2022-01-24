@@ -136,7 +136,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    height: 250px;
+    padding: 1%;
 }
 .cta{
     display: flex;
@@ -186,4 +186,14 @@ button:hover{
     margin-bottom: 10px;
     font-size: 25px;
     font-weight: 600;
+}
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.copyright{
+    color: #ffffff;
 }
