@@ -34,3 +34,42 @@ ul{
 .header div{
     margin-left: auto;
 }
+.hero-container{
+    display: flex;
+    margin: 8% 0%;
+}
+.hero-container img{
+    margin-left: auto;
+    width: 55%;
+    border-radius: 5px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00286860;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 5%;
+    gap: 15px;
+}
+.hero-text h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+.hero-text button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #3882F6;
+}
